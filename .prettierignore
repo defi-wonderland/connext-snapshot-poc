@@ -1,0 +1,24 @@
+*.min.js
+**/node_modules/**
+flow-typed
+
+# cache-dirs
+**/.cache
+
+
+# Built dirs
+**/dist/**
+
+*.md
+
+# Foundry
+lib/
+cache/
+out/
+foundry.toml
+remappings.txt
+
+# Node
+package-lock.json
+yarn.lock
+yarn-error.log
